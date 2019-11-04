@@ -1,0 +1,14 @@
+{
+    "name": "siam/php-exception-logger",
+    "description": "php exception logger and review,find your code's wrong.fix it,write the perfect code!",
+    "type": "l",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "宣言",
+            "email": "59419979@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
