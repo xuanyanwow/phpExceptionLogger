@@ -2,7 +2,7 @@
     "name": "siam/php-exception-logger",
     "description": "php exception logger and review,find your code's wrong.fix it,write the perfect code!",
     "type": "l",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "宣言",
