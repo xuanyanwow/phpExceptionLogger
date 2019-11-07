@@ -21,7 +21,11 @@ class MainTest
         $config = new Config();
         $config->setTempPath(dirname(__FILE__));
         $driver = new File($config);
-        $log = new LogBean();
+        $log    = new LogBean();
+        $log->setCreateTime(time());
+        $log->setName("Test Name");
+        $log->setCode(400);
+        $log->setLine(33);
 
         var_dump($driver->log($log));
     }
@@ -53,4 +57,4 @@ class MainTest
     }
 }
 
-(new MainTest())->getById();
+(new MainTest())->log();
